@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+# redirection des routes admin/*
+RewriteRule ^(admin)(/.*)?$ bootstrap.php?app=Backend [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Redirection des autres routes
+RewriteRule ^(.*)$ bootstrap.php?app=Frontend [QSA,L]

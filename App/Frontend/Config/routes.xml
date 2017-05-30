@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+  <route url="/tinysweets/accueil" module="Gateau" action="index" ></route>
+  <route url="/tinysweets/inscription" module="Client" action="inscription" ></route>
+  <route url="/tinysweets/profil" module="Client" action="profil" ></route>
+  <route url="/tinysweets/recherche" module="Recherche" action="index"></route>
+  <route url="/tinysweets/mdpperdu" module="Client" action="mdpperdu" ></route>
+  <route url="/tinysweets/liste_gateaux" module="Gateau" action="liste" ></route>
+  <route url="/tinysweets/fiche-([0-9]+)" module="Gateau" action="fiche" vars="id"></route>
+  <route url="/tinysweets/panier-add" module="Commande" action="add"></route>
+  <route url="/tinysweets/panier" module="Commande" action="index"></route>
+  <route url="/tinysweets/panier-delete" module="Commande" action="delete"></route>
+  <route url="/tinysweets/panier-deleteItem-([0-9]+)" module="Commande" action="deleteItem" vars="id"></route>
+  <route url="/tinysweets/panier-deleteItemAll-([0-9]+)" module="Commande" action="deleteItemAll" vars="id"></route>
+  <route url="/tinysweets/panier-addItem-([0-9]+)" module="Commande" action="addItem" vars="id"></route>
+  <route url="/tinysweets/validation" module="Commande" action="validation"></route>
+  <route url="/tinysweets/aboutus" module="Footer" action="aboutus" ></route>
+  <route url="/tinysweets/cgv" module="Footer" action="cgv" ></route>
+  <route url="/tinysweets/contact" module="Footer" action="contact" ></route>
+</routes>

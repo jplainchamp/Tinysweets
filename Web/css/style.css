@@ -1,0 +1,311 @@
+body {
+    padding-top: 60px;
+    margin: 0px;
+    background-color: #EEEEEE;
+    font-family: Arial, Helvetica, serif;
+}
+
+.jumbotron {
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.jumbotron p {
+    font-size: 1.2em;
+}
+
+.jumbotron img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    margin: 50px 0;
+    padding: 5px;
+    font-size: 0.9em;
+    color: rgb(250, 204, 209);
+}
+
+.erreur {
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+    padding: 5px;
+}
+
+.container-fluid {
+    max-width: 1024px;
+    margin: auto;
+    padding: 0px;
+}
+
+.main {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.navbar {
+    max-width: 1024px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgb(84, 84, 74);
+    border-color: inherit !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.navbar-nav .dropdown-menu {
+    display: none;
+}
+
+.sign a {
+    color: rgb(250, 204, 209);
+}
+
+.customer a {
+    color: rgb(250, 204, 209);
+    font-weight: normal !important;
+}
+
+.navbar a {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: rgb(250, 204, 209);
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: inherit;
+}
+
+li:hover ul.dropdown-menu, li .dropdown {
+    display: block;
+}
+
+#global {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    overflow: visible !important;
+    font-size: 0.8em !important;
+}
+
+.modal-body {
+    padding: 40px 50px;
+}
+
+.modal-header {
+    padding: 35px 50px;
+    background-color: rgb(84, 84, 74);
+    color: rgb(250, 204, 209);
+    text-align: center;
+    border-radius: 5px;
+}
+
+h3 {
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.fiche {
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+.fiche img {
+    width: 150px;
+    height: 150px;
+}
+
+.reduc, .i {
+    color: orange;
+}
+
+.cgv {
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+#plan {
+    text-align: center;
+}
+
+#profil {
+    margin-left: 1%;
+    margin-top: 2%;
+    padding: 2%;
+    background-color: #F5F5F5;
+    min-width: 35%;
+    min-height: 45%;
+    border-radius: 20px;
+}
+
+#profilcommande {
+    margin-top: 2%;
+    padding: 2%;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+
+#profilcommande th, #profilcommande td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#profilcommande td span {
+    width: 10%;
+    height: 10%;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px !important;
+}
+
+.thumbnail {
+    border: 5px ridge rgb(84, 84, 74);
+    min-height: 250px;
+}
+
+td .panier {
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+}
+.panier {
+    margin-top:30px;
+}
+#totalttc {
+    font-size: 1.1em;
+    text-align: right;
+    font-weight: bold;
+}
+
+#montantttc {
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#alert {
+    font-size: 1em;
+    margin-top: 2%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+#bordure {
+    margin-top: 2%;
+    border: 2px dotted rgb(255,127,0);
+}
+
+#fichedetails {
+    margin-top: 10px;
+    padding: 20px;
+    min-height: 340px;
+}
+
+#fichedetails p {
+    font-size: 1.2em;
+}
+
+#resdetails {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+#avis {
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 1px dotted black;
+}
+
+.avis {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+#hr {
+    border-color: rgb(250, 204, 209);
+    margin-top: 5%;
+}
+
+#imgcaroussel {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.text {
+    color: black;
+}
+
+/* style pour slide accueil */
+.jssorb03 div, .jssorb03 div:hover, .jssorb03 {
+    position: absolute;
+    /* size of bullet elment */
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    color: white;
+    font-size: 12px;
+    background: url('/tinysweets/Web/images/b03.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb03 div { background-position: -5px -4px; }
+.jssora03l, .jssora03r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url('/tinysweets/Web/images/a03.png') no-repeat;
+    overflow: hidden;
+}
+.jssora03l { background-position: -3px -33px; }
+.jssora03r { background-position: -63px -33px; }
+.jssora03l:hover { background-position: -123px -33px; }
+.jssora03r:hover { background-position: -183px -33px; }

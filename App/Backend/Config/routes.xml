@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<routes>
+    <route url="/tinysweets/admin" module="Connexion" action="admin" ></route>
+    <route url="/tinysweets/admin/deconnexion" module="Deconnexion" action="index" ></route>
+    <route url="/tinysweets/admin/gestion_clients" module="Client" action="index" ></route>
+    <route url="/tinysweets/admin/client-insert" module="Client" action="insert" ></route>
+    <route url="/tinysweets/admin/client-update-([0-9]+)" module="Client" action="update" vars="id" ></route>
+    <route url="/tinysweets/admin/client-delete-([0-9]+)" module="Client" action="delete" vars="id" ></route>
+    <route url="/tinysweets/admin/gestion_commandes" module="Commande" action="index" ></route>
+    <route url="/tinysweets/admin/commande-update-([0-9]+)" module="Commande" action="update" vars="id" ></route>
+    <route url="/tinysweets/admin/commande-delete-([0-9]+)" module="Commande" action="delete" vars="id" ></route>
+    <route url="/tinysweets/admin/gestion_gateaux" module="Gateau" action="index" ></route>
+    <route url="/tinysweets/admin/gateau-insert" module="Gateau" action="insert" ></route>
+    <route url="/tinysweets/admin/gateau-update-([0-9]+)" module="Gateau" action="update" vars="id" ></route>
+    <route url="/tinysweets/admin/gateau-delete-([0-9]+)" module="Gateau" action="delete" vars="id" ></route>
+    <route url="/tinysweets/admin/gestion_categories" module="Categorie" action="index" ></route>
+    <route url="/tinysweets/admin/categorie-insert" module="Categorie" action="insert" ></route>
+    <route url="/tinysweets/admin/categorie-update-([0-9]+)" module="Categorie" action="update" vars="id" ></route>
+    <route url="/tinysweets/admin/categorie-delete-([0-9]+)" module="Categorie" action="delete" vars="id" ></route>
+    <route url="/tinysweets/admin/gestion_promos" module="Promo" action="index" ></route>
+    <route url="/tinysweets/admin/promo-insert" module="Promo" action="insert" ></route>
+    <route url="/tinysweets/admin/promo-update-([0-9]+)" module="Promo" action="update" vars="id" ></route>
+    <route url="/tinysweets/admin/promo-delete-([0-9]+)" module="Promo" action="delete" vars="id" ></route>
+    <route url="/tinysweets/admin/gestion_parfums" module="Parfum" action="index" ></route>
+    <route url="/tinysweets/admin/parfum-insert" module="Parfum" action="insert" ></route>
+    <route url="/tinysweets/admin/parfum-update-([0-9]+)" module="Parfum" action="update" vars="id" ></route>
+    <route url="/tinysweets/admin/parfum-delete-([0-9]+)" module="Parfum" action="delete" vars="id" ></route>
+    <route url="/tinysweets/admin/gestion_tailles" module="Taille" action="index" ></route>
+    <route url="/tinysweets/admin/taille-insert" module="Taille" action="insert" ></route>
+    <route url="/tinysweets/admin/taille-update-([0-9]+)" module="Taille" action="update" vars="id" ></route>
+    <route url="/tinysweets/admin/taille-delete-([0-9]+)" module="Taille" action="delete" vars="id" ></route>
+    <route url="/tinysweets/admin/gestion_avis" module="Avis" action="index" ></route>
+    <route url="/tinysweets/admin/avis-insert" module="Avis" action="insert" ></route>
+    <route url="/tinysweets/admin/avis-update-([0-9]+)" module="Avis" action="update" vars="id" ></route>
+    <route url="/tinysweets/admin/avis-delete-([0-9]+)" module="Avis" action="delete" vars="id" ></route>
+    <route url="/tinysweets/admin/details_commande-([0-9]+)" module="DetailsCommande" action="index" vars="id" ></route>
+
+</routes>
